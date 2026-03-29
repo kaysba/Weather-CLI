@@ -59,3 +59,8 @@ Weather-CLI/
 - `requests`
 - `python-dotenv`
 - `rich`
+
+Installation using command line :
+```bash
+pip install -r requirements.txt
+```
