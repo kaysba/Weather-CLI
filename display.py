@@ -15,10 +15,9 @@ def find_temperature_color(temp):
 
 
 def find_wind_color(wind):
-    wind_kmh = round(wind * 3.6, 1)
-    if wind_kmh < 28:
+    if wind < 28:
         color = "green"
-    elif wind_kmh < 72:
+    elif wind < 72:
         color = "orange"
     else:
         color = "red"
